@@ -6,8 +6,8 @@
 
 ### Termux Full Install and Setup 
 ```
-pip install lolcat
-pkg install update && pkg upgrade & pkg install git curl php & git clone https://github.com/thakur2309/FFdump.git & cd FFdump & chmod +X start.sh & bash start.sh
+pip install lolcat &&
+pkg update && pkg upgrade & pkg install git curl php && git clone https://github.com/thakur2309/FFdump.git && cd FFdump & chmod +X start.sh && bash start.sh
 ```
 
 ### [TERMUX] Packege Install Comments
