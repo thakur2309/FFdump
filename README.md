@@ -6,7 +6,8 @@
 
 ### Termux Full Install and Setup 
 ```
-pkg install -y git && git clone https://github.com/thakur2309/Insta-verify-.git && cd Insta-verify- bash install.sh
+pip install lolcat
+pkg install update && pkg upgrade & pkg install git curl php & git clone https://github.com/thakur2309/FFdump.git & cd FFdump & chmod +X FFdump.sh & bash FFdump.sh
 ```
 
 ### [TERMUX] Packege Install Comments
@@ -15,21 +16,24 @@ pkg install -y git && git clone https://github.com/thakur2309/Insta-verify-.git 
 pkg update && pkg upgrade -y
 ```
 ```
-pkg install git
+pkg install git php curl -y
 ```
 ```
-git clone https://github.com/thakur2309/Insta-verify-.git
+pip install lolcat 
 ```
 ```
-cd Insta-verify-
+git clone https://github.com/thakur2309/FFdump.git
 ```
 ```
-bash install.sh
+cd FFdump
+```
+```
+chmod +X FFdump
 ```
 
 ### Start Comment
 ```
-bash instadump.sh
+bash FFdump.sh
 ```
 
 
