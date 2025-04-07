@@ -1,4 +1,4 @@
-<h1 align="center"><u>Insta Verify</u></h1>
+<h1 align="center"><u>Free Fire redeem code</u></h1>
 
 ![Instagram Image ](https://raw.githubusercontent.com/thakur2309/FFdump/refs/heads/main/Screenshot_2025_0407_144456.jpg))
 
@@ -7,7 +7,7 @@
 ### Termux Full Install and Setup 
 ```
 pip install lolcat
-pkg install update && pkg upgrade & pkg install git curl php & git clone https://github.com/thakur2309/FFdump.git & cd FFdump & chmod +X FFdump.sh & bash FFdump.sh
+pkg install update && pkg upgrade & pkg install git curl php & git clone https://github.com/thakur2309/FFdump.git & cd FFdump & chmod +X start.sh & bash start.sh
 ```
 
 ### [TERMUX] Packege Install Comments
@@ -28,12 +28,12 @@ git clone https://github.com/thakur2309/FFdump.git
 cd FFdump
 ```
 ```
-chmod +X FFdump
+chmod +X start.sh
 ```
 
 ### Start Comment
 ```
-bash FFdump.sh
+bash start.sh
 ```
 
 
