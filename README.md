@@ -26,6 +26,9 @@ cd FFdump
 ```
 chmod +X start.sh
 ```
+```
+./start.sh
+```
 
 ### Start Comment
 ```
