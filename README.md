@@ -6,7 +6,7 @@
 
 ### Termux Full Install and Setup 
 ```
-pkg update && pkg upgrade && pip install lolcat && pkg install git curl php figlet && git clone https://github.com/thakur2309/FFdump.git && cd FFdump && chmod +X start.sh && bash start.sh
+pkg update && pkg upgrade && pkg install git curl php figlet && git clone https://github.com/thakur2309/FFdump.git && cd FFdump && chmod +X start.sh && bash start.sh
 ```
 
 ### [TERMUX] Packege Install Comments
@@ -16,9 +16,6 @@ pkg update && pkg upgrade -y
 ```
 ```
 pkg install git php curl figlet -y
-```
-```
-pip install lolcat 
 ```
 ```
 git clone https://github.com/thakur2309/FFdump.git
